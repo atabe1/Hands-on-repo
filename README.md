@@ -65,21 +65,4 @@ Now explore the deployed resources
 kubectl get all
 kubectl get pods
 kubectl get deployments
-kubectl get replicaset
-
-Want more information about any of the items? use the kubectl describe command. Use the resoruce name given in the previous commands.
-
-kubectl describe <resource name>
-
-examples kubectl describe pods/hello-world-68bfd59bd9-8cjlg
-See all resources on Kubernetes
-
-By default.. we were only seeing whats on the default namespace. Want to see everything? Run the below command:
-
-kubectl get all --all-namespaces
-
-Get information about the Kubernetes Cluster
-
-Need information about the kubernetes cluster? the below command may help.
-
-kubectl cluster-info
+kubectl get replicaset.
